@@ -1,0 +1,28 @@
+.Text-size{
+    position: relative;
+    top: 3px;
+   
+    
+  
+    
+}
+.Experiences{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    position: relative;
+    top:-13px;
+}
+.Round-icon{
+
+    margin-top: 14px;
+    width: 10px;
+    height: 10px;
+    background-color: #031a3f !important;
+    border-radius: 50%;
+    margin-left: 16px;
+    align-self: start;
+}
+.Text-sizes{
+    margin-bottom: -13px;;
+}
