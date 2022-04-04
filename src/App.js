@@ -23,9 +23,9 @@ function App() {
  ]
   
   const ProjectList = [
-    {  Name: "PORTFOLIO USING REACTJS",Expl:"I have mentioned my achievements,skills,projects in this portfolio",Tools:"VS Code",Link:"https://github.com/IndumathiBalakrishnan/Porfolio"},
-    {  Name: "WHATSAPP  WEB UI CLONE USING REACTJS",Expl:"The Whatsapp Web UI Clone contains the contact list of a person and we can send message to the particular person by using the chat window",Tools:"VS Code",Link:"https://github.com/IndumathiBalakrishnan/whatsapp_UI_Clone" },
-    {  Name: "GMEET UI CLONE USING REACTJS",Expl:" The Gmeet UI Clone contains the design of access permission and the grid view of partcipants",Tools:"VS Code",Link:"https://github.com/IndumathiBalakrishnan/Gmeet_UI_Clone" },
+    {  Name: "PORTFOLIO USING REACTJS",Expl:"I have mentioned my achievements,skills,projects in this portfolio",Tools:" VS Code",Link:" https://github.com/IndumathiBalakrishnan/Porfolio"},
+    {  Name: "WHATSAPP  WEB UI CLONE USING REACTJS",Expl:"The Whatsapp Web UI Clone contains the contact list of a person and we can send message to the particular person by using the chat window",Tools:" VS Code",Link:" https://github.com/IndumathiBalakrishnan/whatsapp_UI_Clone" },
+    {  Name: "GMEET UI CLONE USING REACTJS",Expl:" The Gmeet UI Clone contains the design of access permission and the grid view of partcipants",Tools:" VS Code",Link:" https://github.com/IndumathiBalakrishnan/Gmeet_UI_Clone" },
 
 ]
 const AchievementList=[
@@ -69,10 +69,9 @@ const Languagelist=[
         <div className="Contact-title">
           <h4 style={{ color: "gold" }}>CONTACT INFO</h4>
           <div className="Contact-Info">
-            <p><PhoneOutlined style={{ transform: "rotate(90deg)", fontSize: "25px", color: "white" }} /><span className="Space">8754292498</span></p>
-            <p><MailOutlined style={{ fontSize: "20px", color: "white" }} /><span className="Space">indumathis1612@gmail.com</span></p>
-            <p><LinkedinOutlined style={{ fontSize: "20px", color: "white" }} /> <a className="Space" href="https://www.linkedin.com/in/indumathib/"
-              style={{ color: "lightblue" }}>https://www.linkedin.com/in/indumathib/</a></p>
+            <p><PhoneOutlined style={{ transform: "rotate(90deg)", fontSize: "25px", color: "white" }} /><a  href="tel:+8754292498" className="Space">8754292498</a></p>
+            <p><MailOutlined style={{ fontSize: "20px", color: "white" }} /><a href="mailto:indumathis1612@gmail.com" className="Space">indumathis1612@gmail.com</a></p>
+            <p><LinkedinOutlined style={{ fontSize: "20px", color: "white" }} /> <a className="Space" href="https://www.linkedin.com/in/indumathib/" target="_blank">https://www.linkedin.com/in/indumathib/</a></p>
             <p><EnvironmentOutlined style={{ fontSize: "20px", color: "white" }} /><span className="Space">Trichy,Tamilnadu,India</span></p>
 
           </div>
@@ -143,7 +142,7 @@ const Languagelist=[
         </div>
         
         <div>
-          <h3><b>HOBBIES</b></h3>
+          <h3 style={{marginTop:"12px"}}><b>HOBBIES</b></h3>
           {
                               Hobbylist.map((userData) => {
                                         const {Hobby} = userData;
