@@ -23,9 +23,9 @@ function App() {
  ]
   
   const ProjectList = [
-    {  Name: "PORTFOLIO USING REACTJS",Expl:"A responsive portfolio is created",Tools:"VS Code",Link:""},
-    {  Name: "WHATSAPP UI CLONE USING REACTJS",Expl:"Designed the Whatsapp UI Clone",Tools:"VS Code",Link:"https://github.com/IndumathiBalakrishnan/whatsapp_UI_Clone" },
-    {  Name: "GMEET UI CLONE USING REACTJS",Expl:"Designed the Gmeet UI Clone",Tools:"VS Code",Link:"https://github.com/IndumathiBalakrishnan/Gmeet_UI_Clone" },
+    {  Name: "PORTFOLIO USING REACTJS",Expl:"I have mentioned my achievements,skills,projects in this portfolio",Tools:"VS Code",Link:"https://github.com/IndumathiBalakrishnan/Porfolio"},
+    {  Name: "WHATSAPP  WEB UI CLONE USING REACTJS",Expl:"The Whatsapp Web UI Clone contains the contact list of a person and we can send message to the particular person by using the chat window",Tools:"VS Code",Link:"https://github.com/IndumathiBalakrishnan/whatsapp_UI_Clone" },
+    {  Name: "GMEET UI CLONE USING REACTJS",Expl:" The Gmeet UI Clone contains the design of access permission and the grid view of partcipants",Tools:"VS Code",Link:"https://github.com/IndumathiBalakrishnan/Gmeet_UI_Clone" },
 
 ]
 const AchievementList=[
@@ -60,10 +60,12 @@ const Languagelist=[
           <div className="Name-content">
             <h2>INDUMATHI BALAKRISHNAN</h2>
             <h3>FRONT-END DEVELOPER</h3>
+            <br></br>
 
           </div>
         </div>
         <hr />
+        <br></br>
         <div className="Contact-title">
           <h4 style={{ color: "gold" }}>CONTACT INFO</h4>
           <div className="Contact-Info">
@@ -106,7 +108,7 @@ const Languagelist=[
         <div>
 
           <h3><b>PROFESSIONAL SUMMARY</b></h3>
-          <p>Dedicated Test Engineer with good technical, analytical, and communication skills demonstrated by 11 months of experience. Meticulous and thorough and will not give up until products are perfected.</p>
+          <p>Dedicated Test Engineer with good technical, analytical, and communication skills demonstrated by 10 months of experience. Meticulous and thorough and will not give up until products are perfected.</p>
         </div>
         <div>
           <h3><b>EXPERIENCE</b></h3>
@@ -119,12 +121,13 @@ const Languagelist=[
         </div>
         <div>
           <h3 style={{position:"relative",top:"19px"}}><b>PROJECTS</b></h3>
+         <p></p>
           {
                                 ProjectList.map((userData) => {
                                         const { Name,Expl,Tools,Link } = userData;
                                         return <Project  Name={Name} Expl={Expl} Tools={Tools} Link={Link} ></Project>;
                                     })}
-                                    <br></br>
+                                    
         </div>
         <div>
           <h3><b>ACHIEVEMENTS</b></h3>
@@ -138,7 +141,7 @@ const Languagelist=[
 
           
         </div>
-        <br></br>
+        
         <div>
           <h3><b>HOBBIES</b></h3>
           {
